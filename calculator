@@ -1,0 +1,18 @@
+num_1 = float(input("enter a number:"))
+choice = input("enter the operation + - * /")
+num_2 = float (input("enter another number:"))
+
+if choice == "+":
+    sum = num_1 + num_2
+    print("the sum is",sum)
+elif choice == "-":
+    diff= num_1 - num_2
+    print ("the difference is",diff)
+elif choice == "*":
+    mul = num_1 * num_2
+    print("the product is",mul)
+elif choice == "/":
+    div = num_1 / num_2
+    print("the quotient is",div)
+else:  
+    print("invalid choice"
